@@ -109,8 +109,7 @@ header ul li ,.error-btn{
 @keyframes updown {
   0% {
     width: 90%;
-    opacity: 0.8;
-    transform: rotate(0deg);
+    opacity: 0.5;
   }
 
   50% {
@@ -121,8 +120,6 @@ header ul li ,.error-btn{
   100% {
     width: 100%;
     opacity: 1;
-    transform: rotate(360deg);
-    display: none;
   }
 }
 
@@ -136,7 +133,7 @@ header ul li ,.error-btn{
   margin: 6px 0px;
   display: block;
   border: 1px solid darkslateblue;
-  animation: updown 2.5s ease-in-out 2.5s 1 normal;
+  animation: updown 3s ease-in-out 3s 1 normal;
   transition: all 2s;
   object-fit: contain
 }
