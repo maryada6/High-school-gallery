@@ -6,7 +6,7 @@ const FooterPart = () => {
       "The memories we created here are memories for life."{" "}
     </p>
     <footer id="footer">
-      <p>Made By Maryada with 💙 &copy 2021</p>
+      <p>Made By Maryada with 💙 &copy; 2021</p>
     </footer>
   </>);
 };
